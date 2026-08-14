@@ -1,0 +1,101 @@
+1. GET greenparsley.ru/v1/markets?lat=55.4324&lon=37.3635&page=1&limit=10
+
+Headers:	
+Accept: application/json
+Authorization: Bearer f0sdf0fsdxfsdf0x0fdsf4543fsdf4
+
+
+2. 
+
+{
+    "cityId": 1,
+    "markets":
+    [
+        {
+            "id": 1,
+            "name": "Metro",
+            "location": {
+                "latitude": 55.760,
+                "longitude": 37.6150
+            },
+            "delivery": {
+                "deliveryType": "schedule",
+                "timeFrom": "2026-08-14T21:00:00+03:00",
+                "timeTo": "2026-08-14T23:00:00+03:00"        
+            },
+            "logo": {
+                "logoUrl": "https://example.com/images/logoMetro.png",
+                "logoBackground": "#0000FF"
+            }
+
+
+        },
+        {
+            "id": 2,
+            "name": "Ашан",
+            "location": {
+                "latitude": 55.762,
+                "longitude": 37.6151
+            },
+            "delivery": {
+                "deliveryType": "schedule",
+                "timeFrom": "2026-08-14T18:00:00+03:00",
+                "timeTo": "2026-08-14T20:00:00+03:00"          
+            },
+             "logo": {
+                "logoUrl": "https://example.com/images/logoAshan.png",
+                "logoBackground": "#FFFFFF"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Вкусвилл",
+            "location": {
+                "latitude": 55.740,
+                "longitude": 37.6250
+            },
+            "delivery": {
+                "deliveryType": "express",
+                "minMinutes": 20,
+                "maxMinutes": 60        
+            },
+             "logo": {
+                "logoUrl": "https://example.com/images/logoVkusvill.png",
+                "logoBackground": "#FFFFFF"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Виктория",
+            "location": {
+                "latitude": 55.720,
+                "longitude": 37.6140
+            },
+            "delivery": {
+                "deliveryType": "schedule",
+                "timeFrom": "2026-08-14T17:00:00+03:00",
+                "timeTo": "2026-08-14T19:00:00+03:00"          
+            },
+             "logo": {
+                "logoUrl": "https://example.com/images/logoVictory.png",
+                "logoBackground": "#008000"
+            }
+        },
+         {
+            "id": 5,
+            "name": "Перекресток",
+            "location": {
+                "latitude": 55.7800,
+                "longitude": 37.6180
+            },
+            "delivery": {
+                "deliveryType": "unavailable",
+                "message": "Доставка сегодня недоступна"    
+            },
+             "logo": {
+                "logoUrl": "https://example.com/images/logoPerecrestok.png",
+                "logoBackground": "#008000"
+            }
+        }
+    ]  
+}
